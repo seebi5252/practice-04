@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: trebuchet MS;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/bg.jpg);
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.logo h1 span {
+    color: orangered;
+}
+
+.line {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orangered;
+    width: 220px;
+    top: 70px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav-bar {
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 28px;
+}
+
+.nav-bar a:hover {
+    color: orangered;
+    transition: 0.8s ease;
+}
+
+.main {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
+
+.main h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.main span {
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+
+.main h3 {
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.main-btns {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-btns .buy-now {
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 5px 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.main-btns .buy-now:hover {
+    opacity: 80%;
+    transform: scale(96%);
+    transition: 0.8s ease-in;
+}
+
+.main-btns .learn-more {
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.main-btns .learn-more:hover {
+    opacity: 80%;
+    transform: scale(96%);
+    transition: 0.8s ease-in;
+}
+
